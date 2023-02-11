@@ -27,6 +27,8 @@ import TermAndCondition from "./pages/TermAndCondition";
 import SingleProduct from "./pages/SingleProduct";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import openStore from "./pages/OpenStore";
+
 function App() {
   return (
     <>
@@ -35,7 +37,9 @@ function App() {
           <Route path="/" element={<Layout/>}>
             <Route index element={<Home/>}/>
             <Route path="about" element={<About/>}/>
+
             <Route path="contact" element={<Contact/>}/>
+            <Route path="openStore" element={<OpenStore/>}/>
 
 
             <Route path="product" element={<ExploreProducts />} />
