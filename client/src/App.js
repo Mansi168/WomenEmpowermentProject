@@ -5,8 +5,8 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact"
-
 import ExploreProducts from "./pages/ExploreProducts";
+import OpenStore from "./pages/OpenStore";
 
 
 
@@ -38,7 +38,7 @@ function App() {
             <Route path="contact" element={<Contact/>}/>
 
 
-            <Route path="product" element={<ExploreProducts />} />
+            <Route path="product" element={<OurStore />} />
             <Route path="product/:id" element={<SingleProduct />} />
             {/* <Route path="blogs" element={<Blog />} /> */}
             <Route path="blog/:id" element={<SingleBlog />} />
