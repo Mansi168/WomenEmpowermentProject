@@ -10,6 +10,8 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import watch from "../images/watch.jpg";
 import Container from "../components/Container";
+
+
 const SingleProduct = () => {
   const props = {
     width: 594,
@@ -77,7 +79,7 @@ const SingleProduct = () => {
             <div className="main-product-details">
               <div className="border-bottom">
                 <h3 className="title">
-                  Kids Headphones Bulk 10 Pack Multi Colored For Students
+                  A beautiful lavender lehenga in chikenkari design
                 </h3>
               </div>
               <div className="border-bottom py-3">
@@ -99,19 +101,19 @@ const SingleProduct = () => {
               <div className=" py-3">
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Type :</h3>
-                  <p className="product-data">Watch</p>
+                  <p className="product-data">Lehenga</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Brand :</h3>
-                  <p className="product-data">Havells</p>
+                  <p className="product-data">Libus</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Category :</h3>
-                  <p className="product-data">Watch</p>
+                  <p className="product-data">Clothing</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Tags :</h3>
-                  <p className="product-data">Watch</p>
+                  <p className="product-data">Fashion</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Availablity :</h3>
@@ -273,7 +275,7 @@ const SingleProduct = () => {
               <div className="reviews mt-4">
                 <div className="review">
                   <div className="d-flex gap-10 align-items-center">
-                    <h6 className="mb-0">Navdeep</h6>
+                    {/* <h6 className="mb-0">Navdeep</h6> */}
                     <ReactStars
                       count={5}
                       size={24}

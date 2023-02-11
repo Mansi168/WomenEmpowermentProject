@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact"
 
-import OurStore from "./pages/OurStore";
+import ExploreProducts from "./pages/ExploreProducts";
 
 
 
@@ -38,7 +38,7 @@ function App() {
             <Route path="contact" element={<Contact/>}/>
 
 
-            <Route path="product" element={<OurStore />} />
+            <Route path="product" element={<ExploreProducts />} />
             <Route path="product/:id" element={<SingleProduct />} />
             {/* <Route path="blogs" element={<Blog />} /> */}
             <Route path="blog/:id" element={<SingleBlog />} />

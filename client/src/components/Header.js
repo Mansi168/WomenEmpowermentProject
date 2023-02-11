@@ -46,7 +46,7 @@ const Header = () => {
                       aria-expanded="false"
                     >
                       <img src={menu} alt="" />
-                      <span className="me-5 d-inline-block">
+                      <span className="me-5 text-dark d-inline-block">
                         Shop Categories
                       </span>
                     </button>
@@ -111,7 +111,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link
+                  <Link 
                     to="/login"
                     className="d-flex align-items-center gap-10 text-dark"
                   >
@@ -147,7 +147,7 @@ const Header = () => {
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-50 text-dark">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/product">My Store</NavLink>
+                    <NavLink to="/product">Explore Products</NavLink>
                     <NavLink to="/blogs">Our stories</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                   </div>

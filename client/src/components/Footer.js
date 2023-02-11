@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsLinkedin, BsGithub, BsYoutube, BsInstagram } from "react-icons/bs";
 import newsletter from "../images/newsletter.png";
+
 const Footer = () => {
   return (
     <>
